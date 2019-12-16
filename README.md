@@ -20,4 +20,9 @@
 
 # How to work with the examples
 
-In each of the folders there is a README.md with basic knowledge and examples, so you can (at least I hope) get your knowledge up to speed. In some of them there is a link to sandbox at the very end. It contains functions which you should fill in to make all tests green 💚💚💚. There are some tips added to guide you 🐨.
+In each of the folders there is a README.md with basic knowledge and examples, so you can (at least I hope) get your knowledge up to speed. Sometimes there is an `index.js` file with tips and instructions 🐨. If you want to complete them make sure you made the steps first:
+1. Make sure you have [Node.js](https://nodejs.org/en/) installed.
+2. Run `npm install` command (node_modules folder should appear).
+
+To run the test which will check if you've done everything right run the command:
+`npm run NUMBER_OF_THE_EXERCISE` for example `npm run 1`. This should run the tests, make them green 💚💚💚. 

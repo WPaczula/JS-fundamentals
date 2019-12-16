@@ -4,7 +4,15 @@
   "description": "JS S&T",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "1": "jest 01",
+    "2": "echo There is no tests for this module!",
+    "3": "jest 03",
+    "4": "jest 04",
+    "5": "jest 05",
+    "6": "echo There is no tests for this module!",
+    "7": "jest 07",
+    "8": "jest 08",
+    "9": "jest 09"
   },
   "repository": {
     "type": "git",
