@@ -13,3 +13,7 @@ How many times did we use something like: `'My age is' + age + 'and my name is' 
 ```
 
 Template literals support multi lines as well so you can add them there as well.
+
+## Examples
+
+You can find short code examples in `index.js`

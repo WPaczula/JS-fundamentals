@@ -7,9 +7,10 @@ Default values allows you to pass less parameters or prevent the application fro
 <h2>Table of contents</h2>
 
 - [How does default values work](#how-does-default-values-work)
-    - [Function](#function)
-    - [Object](#object)
+  - [Function](#function)
+  - [Object](#object)
 - [How to do the trick](#how-to-do-the-trick)
+- [Examples](#examples)
 
 ## How does default values work
 
@@ -69,3 +70,7 @@ test({ param3: 1, param1: 15 }) // param3 === 1, param1 === 15 and the rest is d
 ```
 
 We don't need to pass `undefined` for each parameter that we want to be a default!
+
+## Examples
+
+Examples can be found in the index here as well 🐨

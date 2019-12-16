@@ -9,6 +9,7 @@ Functional programming is an approach, to use functions to manipulate the data i
 - [Reduce](#reduce)
 - [Every](#every)
 - [Some](#some)
+- [Examples](#examples)
 
 ## Filter
 
@@ -67,4 +68,8 @@ const array = [0, 0, 0, 0, 1, 0]
 
 const anyNotZero = array.some(element => element !== 0) // true
 ```
+
+## Examples
+
+Jump straight to them bro (or sis) in `index.js`
 

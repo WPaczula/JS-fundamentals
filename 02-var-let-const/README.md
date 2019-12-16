@@ -6,9 +6,12 @@ There are three ways of declaring a variable - by using var (the old school one)
 
 <h2>Table of contents</h2>
 
-- [`var`](#var)
-- [`let` and `const`](#let-and-const)
+- [var](#var)
+- [let and const](#let-and-const)
 - [The rule of thumb](#the-rule-of-thumb)
+- [How to share variables](#how-to-share-variables)
+  - [export](#export)
+  - [import](#import)
 
 ## `var`
 
@@ -30,3 +33,61 @@ giving information to the dev that will be reading your code instead of really m
 ## The rule of thumb
 
 Use `const` and `let` instead of `var` and try to give the dev that will be reading your code as much information as possible.
+
+## How to share variables
+
+Sometimes we want to share the variables between files. In the old days we would use `require('path/to/file')` to get something and
+`module.exports = 'something'` to export the data. Right now we can use `import` and `export` keywords.
+
+### export
+
+There are two ways to export something:
+
+- first is to export it as the `default` value,
+- second is to make a named export.
+
+To export something as a default value we just use those two keywords together:
+
+```
+const myVariable = 5
+
+export default myVariable
+```
+
+Named export allows us to export multiple thing from a file:
+
+```
+export const a = 5
+export const b = 15
+export const c = 25
+```
+
+Right now we can import a, b and c from the file. Let's see how we can import the values now.
+
+### import
+
+To import something that was exported as a default we can just use the syntax:
+
+```
+import somethingExportedByDefault from 'path/to/file'
+```
+
+We can name it however we like because there is only on default export from a file. To import something that
+was exported with a name we can use the syntax:
+
+```
+import { a, b, c } from 'path/to/file'
+```
+
+We can even combine both of those so it looks something like that:
+
+```
+// export
+export default 5
+export const a = 0
+export const b = 1
+export const c = 2
+
+// import
+import defaultVariable, { a, b, c } from 'path/to/file'
+```

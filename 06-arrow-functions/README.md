@@ -77,7 +77,3 @@ const return10 = () => 10
 ### The difference
 
 Yeah yeah, the syntax is different. Is it the reason they are so useful? Nope, not really. The real reason is that arrow functions **keep their context**! Good bye binding, welcome arrow functions.
-
-
-
- 

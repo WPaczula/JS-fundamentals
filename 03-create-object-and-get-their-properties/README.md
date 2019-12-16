@@ -114,5 +114,5 @@ const merge = {
 
 ## Examples
 
-Uhh that was kind of long wasn't it, to remember it better you can do some [exercises 🐨]()
+Uhh that was kind of long wasn't it, to remember it better you can do some exercises in `index.js` file 🐨
 
