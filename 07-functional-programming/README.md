@@ -9,6 +9,7 @@ Functional programming is an approach, to use functions to manipulate the data i
 - [Reduce](#reduce)
 - [Every](#every)
 - [Some](#some)
+- [Getting keys/values](#getting-keys/values)
 - [Examples](#examples)
 
 ## Filter
@@ -68,6 +69,22 @@ const array = [0, 0, 0, 0, 1, 0]
 
 const anyNotZero = array.some(element => element !== 0) // true
 ```
+
+# Getting keys/values
+
+JS allows getting all keys, values or both of an object and map it into an array. The functions which may help are:
+
+- `Object.keys(object)` - gets all the keys from an object and create an array,
+- `Object.values(object)` - gets all the values from an object and create an array,
+- `Object.entries(object)` - maps object to an array of key, value arrays (this one is kinda tricky).
+
+I guess examples will help here:
+```
+    const obj = { a: 5, b: 6, c: 7}
+    const keys = Object.keys(obj) // ['a', 'b', 'c']
+    const values = Object.values(obj) // [5, 6, 7]
+    const entries = Object.entries(obj) // [['a', 5], ['b', 6], ['c', 7]]
+``` 
 
 ## Examples
 

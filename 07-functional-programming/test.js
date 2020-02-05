@@ -3,7 +3,10 @@ import {
     shouldShowNamesOfJumpersWhichJumpedMoreThan100,
     shouldReturnMaximumLength,
     shouldReturnTrueIBecauseSomeoneHadMoreThan200Meters,
-    shouldReturnFalseBecauseNotEveryoneHadMoreThan100Meters
+    shouldReturnFalseBecauseNotEveryoneHadMoreThan100Meters,
+    shouldReturnNamesOfAllJumpersDevidedByASpace,
+    shouldReturnSumOfJumpsLength,
+    shouldCreateAStringWithTheSummary
 } from '.'
 
 test('shouldMapSkiJumpersDataToTheirJumpLenght', () => {
@@ -25,3 +28,16 @@ test('shouldReturnTrueIBecauseSomeoneHadMoreThan200Meters', () => {
 test('shouldReturnFalseBecauseNotEveryoneHadMoreThan100Meters', () => {
     expect(shouldReturnFalseBecauseNotEveryoneHadMoreThan100Meters()).toBe(false)
 })
+
+test('shouldReturnNamesOfAllJumpersDevidedByASpace', () => {
+    expect(shouldReturnNamesOfAllJumpersDevidedByASpace()).toEqual('Baby JBuczek KCieslar')
+})
+
+test('shouldReturnSumOfJumpsLength', () => {
+    expect(shouldReturnSumOfJumpsLength()).toBe(495)
+})
+
+test('shouldCreateAStringWithTheSummary', () => {
+    expect(shouldCreateAStringWithTheSummary()).toEqual(`Baby: 90, JBuczek: 205, KCieslar: 200`)
+})
+
