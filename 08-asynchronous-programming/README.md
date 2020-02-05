@@ -2,7 +2,7 @@
     <h1>Asynchronous programming</h1>
 </div>
 
-Async programming is an important JS concept as the whole language runs on a single thread only (https://www.youtube.com/watch?v=8aGhZQkoFbQ). 
+Async programming is an important JS concept as the whole language runs on a single thread only (good video to wrapp your head around it - https://www.youtube.com/watch?v=8aGhZQkoFbQ). 
 
 <h2>Table of contents</h2>
 
