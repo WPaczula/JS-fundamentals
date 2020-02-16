@@ -12,7 +12,7 @@
     "6": "echo There is no tests for this module!",
     "7": "jest 07",
     "8": "jest 08",
-    "9": "jest 09"
+    "9": "echo There is no tests for this module!"
   },
   "repository": {
     "type": "git",
