@@ -25,5 +25,5 @@ In each of the folders there is a README.md with basic knowledge and examples, s
 2. Run `npm install` command (node_modules folder should appear).
 
 To run the test which will check if you've done everything right run the command:
-`npm run NUMBER_OF_THE_EXERCISE` for example `npm run 1`. This should run the tests, make them green 💚💚💚. If you don't know
+`npm run NUMBER_OF_THE_EXERCISE` for example `npm run 1`. This should run the tests, make them green 💚💚💚. If you want to do it one by one you can run `npm run NUMBER_OF_THE_EXERCISE -- --watchAll`. It will run the tests after every change you make. If you don't know
 why your test fails it can be good to visit that test's code 🐨.
